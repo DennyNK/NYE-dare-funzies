@@ -1,0 +1,38 @@
+.box {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(240, 130, 187);
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    /* box-sizing: border-box; */
+    /* font-size: 16px; */
+    
+}
+
+.btn {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #f08cb8; /* Background color */
+    color: white; /* Text color */
+    font-weight: bold; /* Optional: Make the text bold */
+    cursor: pointer; /* Makes the cursor appear clickable */
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+
+#text-box{
+    width: 450px;
+    word-wrap: break-word; /* Ensures words break properly */
+    white-space: pre-wrap;
+    
+}
